@@ -1,0 +1,17 @@
+{
+  "name": "goldmine",
+  "version": "1.0.0",
+  "description": "An online shopping catalogue for the NHS Gold Mine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saul E. Garza",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.1"
+  }
+}
