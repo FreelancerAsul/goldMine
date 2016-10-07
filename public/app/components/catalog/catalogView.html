@@ -1,0 +1,9 @@
+<ul class="l-grid catalog">
+  <li class="l-col l-col-1-of-3 l-col-m-1-of-2" ng-repeat="item in items">
+    <div class="card" ng-click="visitItem(item._id)">
+		    <img ng-src="{{item.image}}">
+		    <h3>{{item.name}}</h3>
+		    <h3>${{item.price}}</h3>
+    </div>
+  </li>
+</ul>

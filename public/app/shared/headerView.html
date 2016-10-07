@@ -1,0 +1,11 @@
+<div>
+<div id="navbar-controller">
+    <figure id="navbar-search" class="side" onClick="toggleSearch()"></figure>
+    <div id="navbar-brand" onClick="window.location.href='/'">GOLD MINE</div>
+    <form id="navbar-form" role="search" action="/api/post/items" method="post">
+      <input type="text" class="form-control" placeholder="Dig For Gold!">
+    </form>
+    <figure id="navbar-opener" class="side" onClick="toggleNav()"></figure>
+    <ul onclick="toggleNav()" id="nav"></ul>
+</div>
+</div>

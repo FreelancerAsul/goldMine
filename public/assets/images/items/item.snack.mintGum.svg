@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+<filter  x="-100%" y="-100%" width="300%" height="400%" style="color-interpolation-filters:sRGB;" id="height-2">
+	<feFlood  flood-color="rgb(0,0,0)" flood-opacity="0.55" result="flood"></feFlood>
+	<feComposite  in="flood" result="comp" operator="in" in2="SourceGraphic"></feComposite>
+	<feOffset  dy="2" dx="0" result="offset"></feOffset>
+	<feGaussianBlur  in="offset" stdDeviation="2" result="blur"></feGaussianBlur>
+	<feBlend  mode="normal" in="SourceGraphic" in2="blur"></feBlend>
+</filter>
+<filter  x="-100%" y="-100%" width="300%" height="400%" style="color-interpolation-filters:sRGB;" id="height-1">
+	<feFlood  flood-color="rgb(0,0,0)" flood-opacity="0.5" result="flood"></feFlood>
+	<feComposite  in="flood" result="comp" operator="in" in2="SourceGraphic"></feComposite>
+	<feOffset  dy="1" dx="0" result="offset"></feOffset>
+	<feGaussianBlur  in="offset" stdDeviation="1" result="blur"></feGaussianBlur>
+	<feBlend  mode="normal" in="SourceGraphic" in2="blur"></feBlend>
+</filter>
+<g filter="url(#height-1)">
+	<polygon fill="#42A5F5" points="131.979,5.569 69.26,36.096 65.426,37.96 65.426,105.608 69.868,105.608 69.868,90.45 
+		69.868,52.557 69.868,37.399 96.352,37.399 96.352,52.557 96.352,90.45 96.352,105.608 99.294,105.608 99.294,90.45 99.294,52.557 
+		99.294,37.399 125.783,37.399 125.783,52.557 125.783,90.45 125.783,105.608 128.726,105.608 128.726,90.45 128.726,52.557 
+		128.726,37.399 155.213,37.399 155.213,52.557 155.213,90.45 155.213,105.608 158.157,105.608 158.157,90.45 158.157,52.557 
+		158.157,37.399 184.645,37.399 184.645,52.557 184.645,90.45 184.645,105.608 190.531,105.608 190.531,5.569 	"/>
+</g>
+<g filter="url(#height-1)">
+	<rect x="159.333" y="37.399" fill="#F5F5F5" width="27.282" height="15.157"/>
+</g>
+<g filter="url(#height-2)">
+	<polygon fill="#F5F5F5" points="160.091,52.141 160.091,90.45 160.091,105.192 187.374,105.192 187.374,90.45 187.374,52.141 	"/>
+</g>
+<g filter="url(#height-1)">
+	<rect x="129.018" y="37.399" fill="#F5F5F5" width="27.284" height="15.157"/>
+</g>
+<g filter="url(#height-2)">
+	<polygon fill="#F5F5F5" points="129.775,52.141 129.775,90.45 129.775,105.192 157.059,105.192 157.059,90.45 157.059,52.141 	"/>
+</g>
+<g filter="url(#height-1)">
+	<rect x="98.703" y="37.399" fill="#F5F5F5" width="27.283" height="15.157"/>
+</g>
+<g filter="url(#height-2)">
+	<polygon fill="#F5F5F5" points="99.461,52.141 99.461,90.45 99.461,105.192 126.744,105.192 126.744,90.45 126.744,52.141 	"/>
+</g>
+<g filter="url(#height-1)">
+	<rect x="68.388" y="37.399" fill="#F5F5F5" width="27.283" height="15.157"/>
+</g>
+<g filter="url(#height-2)">
+	<polygon fill="#F5F5F5" points="69.146,52.141 69.146,90.45 69.146,105.192 96.429,105.192 96.429,90.45 96.429,52.141 	"/>
+</g>
+<g filter="url(#height-2)">
+	<rect x="63" y="106" fill="#FFFFFF" width="129" height="145"/>
+</g>
+<g>
+	<g>
+		<polygon fill="#90CAF9" points="63,251 192,251 192,162.555 63,237.387 		"/>
+		<polygon fill="#90CAF9" points="186.615,105 159.333,105 156.302,105 129.018,105 125.986,105 98.703,105 95.671,105 68.388,105 
+			63,105 63,188.216 192,114.187 192,105 		"/>
+	</g>
+</g>
+<text transform="matrix(0.7643 -0.4466 0.5045 0.8634 91.0737 216.0752)" fill="#90CAF9" font-family="'NexaBold'" font-size="46.1875">MINT</text>
+</svg>

@@ -56,6 +56,8 @@ $toast-gutter-width: 20px !default;
 // Breakpoints
 $toast-breakpoint-medium: 700px !default;
 $toast-breakpoint-small: 480px !default;
+$break-m:800px;
+$break-s: 480px;
 
 // Pushes and pulls
 $toast-pushes: true !default;
@@ -63,7 +65,7 @@ $toast-pulls: true !default;
 
 .#{$toast-grid-namespace} {
   list-style: none;
-  margin-left: -$toast-gutter-width;
+  padding: $toast-gutter-width;
 }
 
 %span-all       { width: percentage(1/1); }

@@ -1,3 +1,18 @@
-.catalogue{
-  
+.catalog{
+  .card {
+    float:left;
+  	height:auto;
+    img{
+      border-bottom: 1px solid #b0bec5;
+    	width:100%;
+    }
+    h3:nth-of-type(1){
+      display: inline;
+    	float:left;
+    }
+    h3:nth-of-type(2){
+      display: inline;
+    	float:right;
+    }
+  }
 }

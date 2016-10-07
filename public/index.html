@@ -1,20 +1,52 @@
-<html>
+<html ng-app="app">
   <head>
     <title>Gold Mine</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css"/>
   </head>
-  
+
   <body>
-    <header>
-
+    <header ng-include src="'app/shared/headerView.html'">
+      <div>
+      <div id="navbar-controller">
+          <figure id="navbar-search" class="side" onClick="toggleSearch()"></figure>
+          <div id="navbar-brand" ng-click="">GOLD MINE</div>
+          <form id="navbar-form" role="search" action="/api/post/items" method="post">
+            <input type="text" class="form-control" placeholder="Dig For Gold!">
+          </form>
+          <figure id="navbar-opener" class="side" onClick="toggleNav()"></figure>
+          <ul onclick="toggleNav()" id="nav"></ul>
+      </div>
+      </div>
     </header>
-    <div class="l-grid">
-
-    </div>
-    <footer>
-
-    </footer>
+    <!-- {{msg}} -->
+    <div ui-view style="max-width:900px;margin:auto;"></div>
+    <!-- <footer> -->
+    <!-- </footer> -->
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://unpkg.com/angular-ui-router@0.3.1/release/angular-ui-router.min.js"></script>
+  <script src="./libs/sanitize.js"></script>
+  <script src="./libs/bind-html-compile.js"></script>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <!-- <script src="app/app.routes.js"></script> -->
+  <script src="./app/app.module.js"></script>
+  <script src="./app/components/catalog/catalogCtrl.js"></script>
+  <script src="./app/components/orders/ordersCtrl.js"></script>
+  <script src="./app/components/admin/adminCtrl.js"></script>
+  <script src="./app/components/checkout/checkoutCtrl.js"></script>
+  <script src="./app/components/create/createCtrl.js"></script>
+  <script src="./app/components/item/itemCtrl.js"></script>
+  <script src="./app/components/login/loginCtrl.js"></script>
+  <script src="./js/min/main-min.js"></script>
 </html>

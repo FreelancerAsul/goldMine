@@ -1,0 +1,84 @@
+<md-card md-theme="" md-theme-watch>
+  <form>
+    <md-card-title>
+      <md-card-title-text>
+        <span class="md-headline">{{item.name}}</span>
+        <span class="md-headline" style="right:0;">{{item.price}}</span>
+        <span class="md-subhead">{{item.desc}}</span>
+        <fieldset class="demo-fieldset" ng-repeat="m in item.modifiers">
+            <legend class="demo-legend">{{m.label}}</legend>
+            <div layout="row" bind-html-compile="evalOption($index)" layout-wrap flex>
+            </div>
+          </fieldset>
+      </md-card-title-text>
+      <img ng-src="{{item.image}}" style="width:50%;"/>
+    </md-card-title>
+    <md-card-actions layout="row" layout-align="end center">
+      <md-button>Action 1</md-button>
+      <md-button>Action 2</md-button>
+    </md-card-actions>
+  </form>
+</md-card>
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="card itemcard">
+    <div>
+      <img ng-src="{{item.image}}"></img>
+    </div>
+    <div>
+      <table>
+        <tbody>
+
+          <tr>
+            <td><h2>{{item.name}}</h2><h2>${{item.price}}</h2></td>
+          </tr>
+
+          <tr>
+            <td><p>{{item.desc}}</p></td>
+          </tr>
+
+          <tr>
+            <td>
+              <table>
+                <tbody>
+                  <tr ng-repeat="m in item.modifiers">
+                    <td>
+                      <h3>{{m.label}}</h3>
+                      <ul class="l-grid">
+                        <div class="card">
+                          <li ng-repeat="o in m.option" class="l-col l-col-1-of-2 l-col-m-1-of-2 l-col-s-1-of-2">
+                            <div class="circ" ng-attr-style="background-color:{{o.color}}"></div>
+                            <font>{{o.name}}</font><font>${{o.val}}</font>
+                          </li>
+                       </div>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <div ng-click="">Order</div>
+                <div ng-click="">Add to Cart</div>
+              </div
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+</div> -->
